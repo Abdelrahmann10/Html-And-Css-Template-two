@@ -393,6 +393,9 @@ header .container nav div i {
 }
 
 @media (max-width:768px) {
+        .services .container .coloumns {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
     .services .container .coloumns div>div {
         flex-direction: column;
     }
@@ -721,7 +724,7 @@ header .container nav div i {
 /* start skills */
 .no-name .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
     gap: 100px;
 
 }
@@ -1019,7 +1022,7 @@ header .container nav div i {
     border: 1px solid white;
     padding: 0px 15px 0px 40px;
     caret-color: white;
-    width: calc(500px - 130px);
+    width: calc(100% - 130px);
     border-right: none;
     color: white
 }
