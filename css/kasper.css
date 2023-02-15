@@ -999,6 +999,11 @@ header .container nav div i {
     align-items: center;
     margin-right: 20px;
 }
+@media (max-width:768px) {
+    .subscribe .container form {
+        margin: auto
+    }
+}
 
 .subscribe .container form i {
     position: absolute;
@@ -1029,7 +1034,7 @@ header .container nav div i {
     background-color: var(--main);
     color: white;
     padding: 5px 10px;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 3px;
     width: 130px;
     border: 1px solid white;
